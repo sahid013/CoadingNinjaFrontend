@@ -1,0 +1,23 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+p {
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3 
+}
+
+ul {
+    /* list-style: none; */
+    /* border:2px solid black; */
+    border-bottom: 2px solid black;
+}
+
+li {
+    list-style-type: none;
+    text-shadow: 2px 2px rgb(166, 38, 38);
+}
