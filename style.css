@@ -133,5 +133,60 @@ footer {
     text-align: center;
     padding: 2px;
     color:white;
-    text-size: 14px;
+    font-size: 14px;
 }
+
+/* Pseudo classes */
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+ul.image li:hover {
+   position: relative;
+   top: -4px;
+ }
+
+ form input:focus {
+    border:4px dashed #4b4b4b ;
+    outline: none;
+ }
+
+ form input:valid {
+    border: 4px solid green;
+ }
+
+ form input:invalid {
+    border: 4px solid red;
+ }
+
+ nav li:nth-child(3) {
+    border: 2px solid green;
+ }
+
+ /* Peseudo element */
+
+ article p:first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+ }
+
+
+ /*media query */
+ @media screen and (max-width: 1440px){
+    div.banner .banner_text h2 {
+        font-size: 24px;
+    }
+    div.banner .banner_text span {
+        font-size: 48px;
+    }
+ }
+
+
+ @media screen and (max-width: 960px){
+    div.banner .banner_text h2 {
+        font-size: 18px;
+    }
+    div.banner .banner_text span {
+        font-size: 36px;
+    }
+ }
